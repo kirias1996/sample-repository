@@ -1,0 +1,8 @@
+name: Sample
+version: '1.0-SNAPSHOT'
+main: plugin.sample.Main
+api-version: '1.21'
+commands:
+  fireworks:
+    description: 花火コマンド
+    usage: /fireworks
