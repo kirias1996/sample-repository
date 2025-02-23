@@ -90,7 +90,7 @@ public final class Main extends JavaPlugin implements Listener, CommandExecutor 
       }
       //ファイル書き込み
       Path path = Path.of("firework.txt");
-      Files.writeString(path, "たーまやー\n", StandardOpenOption.APPEND);
+      Files.writeString(path, "たーまやー\n");
       Files.writeString(path, colorList.size() + "色の花火を打ち上げました。", StandardOpenOption.APPEND);
       player.sendMessage(Files.readString(path));
 //      player.sendMessage(colorList.size() + "色の花火を打ち上げました。");
